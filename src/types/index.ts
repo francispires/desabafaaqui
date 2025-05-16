@@ -34,6 +34,7 @@ export type Complaint = {
   disagrees: number;
   userReaction?: 'agree' | 'disagree' | null;
   comments?: Comment[];
+  responses?: Response[];
   createdAt: Date;
   updatedAt: Date;
 };
@@ -72,4 +73,14 @@ export type FilterOptions = {
     end: Date;
   };
   category?: string;
+};
+
+export type Response = {
+  id: string;
+  complaintId: string;
+  authorType: 'company' | 'user';
+  authorId: string;
+  authorName: string;
+  content: string;
+  createdAt: Date;
 };

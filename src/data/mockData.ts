@@ -87,6 +87,9 @@ export const mockComplaints: Complaint[] = [
     description: 'Comprei um notebook que veio com defeito na tela. Ao entrar em contato com a assistência, fui ignorada diversas vezes e já se passaram 3 semanas sem solução.',
     rating: 1,
     status: 'pending',
+    weight: 0,
+    agrees: 0,
+    disagrees: 0,
     createdAt: new Date('2023-05-12'),
     updatedAt: new Date('2023-05-12'),
     responses: [
@@ -121,6 +124,9 @@ export const mockComplaints: Complaint[] = [
     description: 'Estou há 3 meses tentando resolver cobranças que não reconheço na minha fatura. A cada ligação me pedem os mesmos documentos e o problema não é resolvido.',
     rating: 2,
     status: 'in-progress',
+    weight: 0,
+    agrees: 0,
+    disagrees: 0,
     createdAt: new Date('2023-06-05'),
     updatedAt: new Date('2023-06-10'),
     responses: [
@@ -146,6 +152,9 @@ export const mockComplaints: Complaint[] = [
     description: 'Cancelei minha linha telefônica há 2 meses e continuo recebendo cobranças. Já liguei diversas vezes e sempre dizem que vai ser resolvido, mas nada acontece.',
     rating: 1,
     status: 'ignored',
+    weight: 0,
+    agrees: 0,
+    disagrees: 0,
     createdAt: new Date('2023-04-15'),
     updatedAt: new Date('2023-04-15'),
     responses: []
@@ -161,6 +170,9 @@ export const mockComplaints: Complaint[] = [
     description: 'Fiz uma compra online há mais de 30 dias, o produto não foi entregue e ao solicitar reembolso fui informada que precisava aguardar mais 15 dias úteis.',
     rating: 2,
     status: 'resolved',
+    weight: 0,
+    agrees: 0,
+    disagrees: 0,
     createdAt: new Date('2023-03-22'),
     updatedAt: new Date('2023-04-18'),
     responses: [
@@ -195,6 +207,9 @@ export const mockComplaints: Complaint[] = [
     description: 'Fiquei sem água por 2 dias sem nenhum aviso prévio ou previsão de normalização. Tentei contato diversas vezes sem sucesso.',
     rating: 3,
     status: 'resolved',
+    weight: 0,
+    agrees: 0,
+    disagrees: 0,
     createdAt: new Date('2023-05-30'),
     updatedAt: new Date('2023-06-02'),
     responses: [
