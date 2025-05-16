@@ -8,7 +8,15 @@ export default authMiddleware({
     "/rankings",
     "/search",
     "/companies/:path*",
-    "/complaints/:path*"
+    "/complaints/:path*",
+    "/about",
+    "/contact",
+    "/terms",
+    "/privacy",
+    "/login",
+    "/signup",
+    "/reset-password",
+    "/verify-email"
   ]
 });
 
